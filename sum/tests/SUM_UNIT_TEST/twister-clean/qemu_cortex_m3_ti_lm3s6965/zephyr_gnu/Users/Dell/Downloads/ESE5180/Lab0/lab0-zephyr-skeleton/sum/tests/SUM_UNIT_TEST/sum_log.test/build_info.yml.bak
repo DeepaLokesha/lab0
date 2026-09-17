@@ -1,0 +1,20 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST'
+    source-dir: 'C:/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST'
+  board:
+    name: 'qemu_cortex_m3'
+    path:
+     - 'C:/ncs/v3.4.0/zephyr/boards/qemu/cortex_m3'
+    qualifiers: 'ti_lm3s6965'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/ncs/v3.4.0/nrf/dts/bindings'
+     - 'C:/ncs/v3.4.0/zephyr/dts/bindings'
+    files:
+     - 'C:/ncs/v3.4.0/zephyr/boards/qemu/cortex_m3/qemu_cortex_m3.dts'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/ncs/toolchains/dcbdc366a1/opt/zephyr-sdk'
+version: '0.1.0'

@@ -1,0 +1,13 @@
+choice SUM_IMPL
+	prompt "Sum function implementation"
+	default SUM_PRINT
+
+config SUM_PRINT
+	bool "Use printk() implementation"
+
+config SUM_LOG
+	bool "Use Logger (LOG_*) implementation"
+
+endchoice
+
+source "Kconfig.zephyr"

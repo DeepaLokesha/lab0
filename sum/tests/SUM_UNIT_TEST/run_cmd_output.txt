@@ -1,0 +1,8 @@
+-- west build: running target run
+[0/1] To exit from QEMU enter: 'CTRL+a, x'[QEMU] CPU: cortex-m3
+'QEMU-NOTFOUND' is not recognized as an internal or external command,
+operable program or batch file.
+FAILED: [code=1] zephyr/CMakeFiles/run_qemu C:/lab0/sum/tests/SUM_UNIT_TEST/build/zephyr/CMakeFiles/run_qemu 
+C:\WINDOWS\system32\cmd.exe /C "cd /D C:\lab0\sum\tests\SUM_UNIT_TEST\build && QEMU-NOTFOUND -cpu cortex-m3 -machine lm3s6965evb -net none -pidfile qemu.pid -chardev stdio,id=con,mux=on -serial chardev:con -mon chardev=con,mode=readline -nographic -icount shift=6,align=off,sleep=off -rtc clock=vm -kernel C:/lab0/sum/tests/SUM_UNIT_TEST/build/zephyr/zephyr.elf"
+ninja: build stopped: subcommand failed.
+FATAL ERROR: command exited with status 1: 'C:\ncs\toolchains\dcbdc366a1\opt\bin\cmake.EXE' --build 'C:\lab0\sum\tests\SUM_UNIT_TEST\build' --target run

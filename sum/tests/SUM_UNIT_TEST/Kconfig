@@ -1,0 +1,4 @@
+# Kconfig for sum unit testing
+mainmenu "SUM Unit Test Configuration"
+
+source "Kconfig.zephyr"

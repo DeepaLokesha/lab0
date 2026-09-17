@@ -1,0 +1,5 @@
+tests:
+  sum_log.test:
+    # platform_allow: qemu_cortex_m3
+    tags: sum_log unit
+    harness: ztest

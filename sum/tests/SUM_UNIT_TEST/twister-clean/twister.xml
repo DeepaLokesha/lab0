@@ -1,0 +1,46 @@
+<testsuites>
+	<testsuite name="qemu_cortex_m3/ti_lm3s6965" timestamp="2026-09-16T15:50:50.076549" time="0.0" tests="1" failures="0" errors="1" skipped="0">
+		<properties>
+			<property name="version" value="ncs-v3.4.0" />
+		</properties>
+		<testcase classname="qemu_cortex_m3/ti_lm3s6965:sum_log.test" name="sum_log.test" time="0.00">
+			<error type="failure" message="CMake build failure - CMake Error at C:/ncs/v3.4.0/zephyr/cmake/modules/dts.cmake:350 (execute_process):   execute_process failed command indexes:">Loading Zephyr default modules (Zephyr base).
+-- Application: C:/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST
+-- CMake version: 4.2.1
+-- Found Python3: C:/ncs/toolchains/dcbdc366a1/opt/bin/python.exe (found suitable version "3.12.4", minimum required is "3.12") found components: Interpreter
+-- Cache files will be written to: C:/ncs/v3.4.0/zephyr/.cache
+-- Zephyr version: 4.4.0 (C:/ncs/v3.4.0/zephyr)
+-- Found west (found suitable version "1.5.0", minimum required is "0.14.0")
+-- Board: qemu_cortex_m3, qualifiers: ti_lm3s6965
+-- Found host-tools: zephyr 1.0.1 (C:/ncs/toolchains/dcbdc366a1/opt/zephyr-sdk)
+-- Found toolchain: zephyr 1.0.1 (C:/ncs/toolchains/dcbdc366a1/opt/zephyr-sdk)
+-- Found Dtc: C:/ncs/toolchains/dcbdc366a1/opt/bin/dtc.exe (found suitable version "1.4.7", minimum required is "1.4.6")
+-- Found BOARD.dts: C:/ncs/v3.4.0/zephyr/boards/qemu/cortex_m3/qemu_cortex_m3.dts
+-- Generated zephyr.dts: C:/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST/twister-clean/qemu_cortex_m3_ti_lm3s6965/zephyr_gnu/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST/sum_log.test/zephyr/zephyr.dts
+-- Generated pickled edt: C:/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST/twister-clean/qemu_cortex_m3_ti_lm3s6965/zephyr_gnu/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST/sum_log.test/zephyr/edt.pickle
+Traceback (most recent call last):
+  File "C:\ncs\v3.4.0\zephyr\scripts\dts\gen_defines.py", line 1245, in &lt;module&gt;
+    main()
+  File "C:\ncs\v3.4.0\zephyr\scripts\dts\gen_defines.py", line 46, in main
+    with open(args.header_out, "w", encoding="utf-8") as header_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST/twister-clean/qemu_cortex_m3_ti_lm3s6965/zephyr_gnu/Users/Dell/Downloads/ESE5180/Lab0/lab0-zephyr-skeleton/sum/tests/SUM_UNIT_TEST/sum_log.test/zephyr/include/generated/zephyr/devicetree_generated.h.new'
+CMake Error at C:/ncs/v3.4.0/zephyr/cmake/modules/dts.cmake:350 (execute_process):
+  execute_process failed command indexes:
+
+    1: "Child return code: 1"
+
+Call Stack (most recent call first):
+  C:/ncs/v3.4.0/zephyr/cmake/modules/dts.cmake:436 (dts_gen_defines)
+  C:/ncs/v3.4.0/zephyr/cmake/modules/zephyr_default.cmake:133 (dts_init)
+  C:/ncs/v3.4.0/zephyr/cmake/modules/zephyr_default.cmake:133 (cmake_language)
+  C:/ncs/v3.4.0/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)
+  C:/ncs/v3.4.0/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)
+  CMakeLists.txt:3 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+</error>
+		</testcase>
+	</testsuite>
+</testsuites>
